@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: lightblue;
+  color: rebeccapurple;
+}
+
+.site-header {
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border: 5px solid green;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.subtitle {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: lightslategray;
+  padding: 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.navbar a:hover {
+  background-color: lightseagreen;
+}
+
+.main {
+  background-color: white;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid palevioletred;
+  border-radius: 8px;
+  max-width: 600px;
+  box-shadow: 0 2px 8px gray;
+}
+
+.main h2 {
+  margin-top: 0;
+  color: blueviolet;
+}
+
+
+.btn {
+  display: block;
+  margin: 30px auto;
+  padding: 12px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: yellowgreen;
+}
+
+.site-footer {
+  background-color:red;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
